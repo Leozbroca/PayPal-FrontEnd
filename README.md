@@ -23,3 +23,5 @@ password: wK9+:G4!
 - Styled-Components <br/>
 - Node.js <br/>
 - PayPal API <br/>
+
+# Developed by: Leonardo Broca
