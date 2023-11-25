@@ -52,7 +52,7 @@ const createOrder = async (cart, shipping_address) => {
         shipping: {
           type: "SHIPPING",
           address: {
-            address_line_1: "1234 Main St.",
+            address_line_1: "ÓÓÓÓÓ",
             admin_area_2: "Anytown",
             admin_area_1: "CA",
             postal_code: "12345",
@@ -64,18 +64,14 @@ const createOrder = async (cart, shipping_address) => {
     payment_source: {
       paypal: {
         //   email_address: "leozbroca@gmail.com",
-        //   name: {
-        //     given_name: "Leo",
-        //     surname: "Broca",
-        //   },
-        //   phone: {
-        //     phone_number: "12991595699",
-        //   },
-        address: {
           name: {
             given_name: "Leo",
             surname: "Broca",
           },
+        //   phone: {
+        //     phone_number: "12991595699",
+        //   },
+        address: {
           address_line_1: "12345 Main St.",
           admin_area_2: "Anytown",
           admin_area_1: "CA",
