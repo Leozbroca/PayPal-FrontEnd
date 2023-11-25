@@ -2,7 +2,7 @@ import React from "react";
 import { PayPalButtons } from "@paypal/react-paypal-js";
 
 const PaypalCheckoutButton = () => {
-  const url = "http://localhost:8888/";
+  const url = "https://pay-pal-back-end.vercel.app/";
 
   const createOrder = async (data) => {
     const cart = JSON.parse(localStorage.getItem("cart"));
