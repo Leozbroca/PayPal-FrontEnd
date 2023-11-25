@@ -16,7 +16,7 @@ password: wK9+:G4!
 -Final message at the end of the transaction <br/>
 
 ## What doesn't work:
-- the editable fiels doesn't send the information to the API
+-The editable fiels doesn't send the information to the API
 
 ## Tecnologias
 - React Js <br/>
