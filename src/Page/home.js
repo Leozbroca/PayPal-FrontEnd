@@ -28,7 +28,7 @@ import useForm from "../Hooks/useForm";
 
 const Home = () => {
   const [cart, setCart] = useState(JSON.parse(localStorage.getItem("cart")));
-  const [form, onChange, clear] = useForm({
+  const [form, onChange] = useForm({
     name: "",
     lastName: "",
     email: "",

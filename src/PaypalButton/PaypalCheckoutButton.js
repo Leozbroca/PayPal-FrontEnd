@@ -3,9 +3,10 @@ import { PayPalButtons } from "@paypal/react-paypal-js";
 
 const PaypalCheckoutButton = () => {
   const url = "https://pay-pal-back-end.vercel.app/";
-
+  
   const createOrder = async (data) => {
     const cart = JSON.parse(localStorage.getItem("cart"));
+
     const response = await fetch(`${url}my-server/create-paypal-order`, {
       method: "POST",
       headers: {
@@ -30,8 +31,8 @@ const PaypalCheckoutButton = () => {
       }),
     });
 
-    alert(`Transação bem sucedida!
-     ID transação: ${data.orderID}`);
+    alert(`Successful transaction, Thank you for your purchase!
+     ID transaction: ${data.orderID}`);
     return await response.json();
   };
 
