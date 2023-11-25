@@ -6,7 +6,7 @@ This project is based on a simple website simulating a shopping cart, where it i
 Vercel: https://pay-pal-front-end-theta.vercel.app/
 
 ## PayPal Sandbox account credentials
-email: sb-htnv228257368@personal.example.com
+email: sb-htnv228257368@personal.example.com <br/>
 password: wK9+:G4!
 
 ## What works:
