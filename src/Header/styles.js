@@ -7,9 +7,9 @@ export const MainHeader = styled.div`
   z-index: 5;
   width: 100vw;
   min-height: 120px;
-  max-height: 200px;
+  max-height: 120px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  background-color: blue;
+  background-color: #4a3fec;
 `;
