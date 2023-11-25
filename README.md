@@ -1,4 +1,4 @@
-# Simple PayPal Checkout Web Application
+# Simple PayPal Checkout Web Application 🚀
 
 This project is based on a simple website simulating a shopping cart, where it is possible to select the items one wishes, using the PayPal API to simulate the purchase.
 
