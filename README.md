@@ -10,16 +10,16 @@ email: sb-htnv228257368@personal.example.com <br/>
 password: wK9+:G4!
 
 ## What works:
--PayPal button is working.
--All requests.
--Adding products to the shopping cart.
--Final message at the end of the transaction
+-PayPal button is working. <br/>
+-All requests. <br/>
+-Adding products to the shopping cart. <br/>
+-Final message at the end of the transaction <br/>
 
 ## What doesn't work:
 - the editable fiels doesn't send the information to the API
 
 ## Tecnologias
-- React Js
-- Styled-Components
-- Node.js
-- PayPal API
+- React Js <br/>
+- Styled-Components <br/>
+- Node.js <br/>
+- PayPal API <br/>
